@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoocProject</string>
+    <string name="str_recorder_normal">按下 说话</string>
+    <string name="str_recorder_recording">松开结束</string>
+    <string name="str_recorder_want_cance">松开手指，取消发送</string>
+    <string name="str_recorder_cance_sent">手指上滑，取消发送</string>
+    <string name="str_recorder_too_short">录音时间太短</string>
+
+    <string name="str_tip_guaguaka">谢谢惠顾</string>
+</resources>
