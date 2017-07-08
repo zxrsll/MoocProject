@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_wei_xin_recorder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#ebebeb"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:layout_weight="1"
+        android:listSelector="@drawable/list_selector"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.imooc.project.com.imooc.project.view.AudioRecorderButton
+            android:id="@+id/recorder_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="7dp"
+            android:padding="5dp"
+            android:minHeight="0dp"
+            android:gravity="center"
+            android:background="@drawable/button_recorder_normal"
+            android:text="@string/str_recorder_normal"
+            android:textColor="#727272"
+            android:textSize="16sp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            />
+    </FrameLayout>
+</LinearLayout>
